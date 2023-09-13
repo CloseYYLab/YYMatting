@@ -8,25 +8,11 @@ Official repository for the paper [Robust High-Resolution Video Matting with Tem
 
 <br>
 
-## News
-
-* [Nov 03 2021] Fixed a bug in [train.py](https://github.com/PeterL1n/RobustVideoMatting/commit/48effc91576a9e0e7a8519f3da687c0d3522045f).
-* [Sep 16 2021] Code is re-released under GPL-3.0 license.
-* [Aug 25 2021] Source code and pretrained models are published.
-* [Jul 27 2021] Paper is accepted by WACV 2022.
-
-<br>
-
-## Showreel
-Watch the showreel video ([YouTube](https://youtu.be/Jvzltozpbpk), [Bilibili](https://www.bilibili.com/video/BV1Z3411B7g7/)) to see the model's performance. 
-
 <p align="center">
     <a href="https://youtu.be/Jvzltozpbpk">
         <img src="documentation/image/showreel.gif">
     </a>
 </p>
-
-All footage in the video are available in [Google Drive](https://drive.google.com/drive/folders/1VFnWwuu-YXDKG-N6vcjK_nL7YZMFapMU?usp=sharing).
 
 <br>
 
@@ -221,20 +207,6 @@ Speed is measured with `inference_speed_test.py` for reference.
 * Note 3: We only measure tensor throughput. The provided video conversion script in this repo is expected to be much slower, because it does not utilize hardware video encoding/decoding and does not have the tensor transfer done on parallel threads. If you are interested in implementing hardware video encoding/decoding in Python, please refer to [PyNvCodec](https://github.com/NVIDIA/VideoProcessingFramework).
 
 <br>  
-
-## Project Members
-* [Shanchuan Lin](https://www.linkedin.com/in/shanchuanlin/)
-* [Linjie Yang](https://sites.google.com/site/linjieyang89/)
-* [Imran Saleemi](https://www.linkedin.com/in/imran-saleemi/)
-* [Soumyadip Sengupta](https://homes.cs.washington.edu/~soumya91/)
-
-<br>
-
-## Third-Party Projects
-
-* [NCNN C++ Android](https://github.com/FeiGeChuanShu/ncnn_Android_RobustVideoMatting) ([@FeiGeChuanShu](https://github.com/FeiGeChuanShu))
-* [lite.ai.toolkit](https://github.com/DefTruth/RobustVideoMatting.lite.ai.toolkit) ([@DefTruth](https://github.com/DefTruth))
-* [Gradio Web Demo](https://huggingface.co/spaces/akhaliq/Robust-Video-Matting) ([@AK391](https://github.com/AK391))
 * [Unity Engine demo with NatML](https://hub.natml.ai/@natsuite/robust-video-matting) ([@natsuite](https://github.com/natsuite))  
 * [MNN C++ Demo](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/mnn/cv/mnn_rvm.cpp) ([@DefTruth](https://github.com/DefTruth))
 * [TNN C++ Demo](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/tnn/cv/tnn_rvm.cpp) ([@DefTruth](https://github.com/DefTruth))
